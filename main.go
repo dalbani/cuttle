@@ -3,15 +3,14 @@ package main
 import (
 	"crypto/tls"
 	"flag"
+	"github.com/dalbani/cuttle/cuttle/cuttle"
 	"io/ioutil"
 	"net/http"
 	"os"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/elazarl/goproxy"
-	yaml "gopkg.in/yaml.v2"
-
-	"github.com/mrkschan/cuttle/cuttle"
+	log "github.com/sirupsen/logrus"
+	"gopkg.in/yaml.v2"
 )
 
 func main() {
