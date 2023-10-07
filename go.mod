@@ -5,7 +5,7 @@ go 1.21.0
 require (
 	github.com/sirupsen/logrus v1.9.3
 	gopkg.in/elazarl/goproxy.v1 v1.0.0-20180725130230-947c36da3153
-	gopkg.in/yaml.v2 v2.0.0-20160301204022-a83829b6f129
+	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
