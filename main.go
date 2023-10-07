@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/elazarl/goproxy"
 	log "github.com/sirupsen/logrus"
+	"gopkg.in/elazarl/goproxy.v1"
 	"gopkg.in/yaml.v2"
 )
 
