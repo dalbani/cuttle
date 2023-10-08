@@ -17,7 +17,6 @@ FROM gcr.io/distroless/base-debian12
 WORKDIR /
 
 COPY --from=builder /app/cuttle.bin /cuttle
-COPY cuttle.yml /cuttle.yml
 
 EXPOSE 3128
 
